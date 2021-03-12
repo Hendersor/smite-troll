@@ -12,10 +12,11 @@ body{
 }
 
 #logo{
-    width: 6%;
+    width: 4%;
+    height: 4%;
     border-radius: 10%;
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 header{
@@ -28,4 +29,30 @@ header{
     margin-left: 5px;
     margin-top: 5px;
     height: 550px;
+}
+
+#contenedor-principal{
+    display: flex;
+
+}
+
+#contenedor-objetos{
+    margin-left: 50px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    width: 404px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+#contenedor-objetos img{
+cursor: pointer;
+margin-top: 10px;
+border-radius: 10%;
+}
+
+#reliquia-1{
+margin-left: 70px;
 }
