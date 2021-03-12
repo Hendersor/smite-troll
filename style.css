@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background: url(https://web2.hirez.com/smite//wp-content/uploads/2015/06/conquest-background-optimized.jpg);
+    margin-bottom: 0;
 }
 
 #nombre{
@@ -27,20 +29,21 @@ header{
 #dios{
     border-radius: 5%;
     margin-left: 5px;
-    margin-top: 5px;
-    height: 550px;
+    margin-top: 58px;
+    margin-bottom: 35px;
+    height: 390px;
 }
 
 #contenedor-principal{
     display: flex;
-
+    background-position: bottom;
 }
 
 #contenedor-objetos{
     margin-left: 50px;
     padding-top: 50px;
     flex-wrap: wrap;
-    width: 404px;
+    width: 402px;
 }
 
 img:hover{
@@ -54,5 +57,9 @@ border-radius: 10%;
 }
 
 #reliquia-1{
-margin-left: 70px;
+margin-left: 50px;
+}
+
+.objetos{
+    height: 100px;
 }
